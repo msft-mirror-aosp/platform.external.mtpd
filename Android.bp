@@ -48,7 +48,4 @@ cc_binary {
         "-Werror",
     ],
     init_rc: ["mtpd.rc"],
-    sanitize: {
-        memtag_heap: true,
-    },
 }
